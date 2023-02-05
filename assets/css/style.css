@@ -9,13 +9,12 @@ background-color: lightgray;
 }
 
 h1{
-
+display: block;
 }
 
 main{
     font-family: Arial, Helvetica, sans-serif;
     color: beige;
-
 }
 
 .text-right{

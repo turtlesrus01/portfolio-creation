@@ -16,13 +16,18 @@ header{
     justify-content: space-between;
     height: 60px;
     width: 100%;
-    line-height: 60px;
     background-color: #8d91c7;
+}
+
+.hero{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
 header nav{
    justify-content: flex-end;
-   margin: 2em;
+
 }
 
 ul {
@@ -48,8 +53,4 @@ main{
 
 .text-right{
     text-align: right;
-}
-
-.text-left{
-    text-align: left;
 }

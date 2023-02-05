@@ -13,7 +13,6 @@ display: block;
 }
 
 main{
-    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     color: beige;
 }

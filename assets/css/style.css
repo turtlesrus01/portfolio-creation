@@ -4,7 +4,8 @@
 }
 
 body{
-
+flex: auto;
+background-color: lightgray;
 }
 
 h1{

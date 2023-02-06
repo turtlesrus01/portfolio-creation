@@ -19,11 +19,13 @@ header{
 }
 
 
-/*Styling the hero image*/
-.hero{
-    height: 500px;
-    background-position: center;
+/*Styling the backgorund image*/
+.bg.img{
+    background: url(img_man.jpg) no-repeat center;
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
 
 /*Styling the nav bar*/
@@ -35,18 +37,18 @@ header nav{
     float: right;
 }
 
-.top header nav:hover{
+header .text-right:hover{
     background-color: red;
     color: black;
 }
 
-.top header nav:active{
+header .text-right:active{
     background-color: #04AA6D;
     color: white;
   }
 
 
-.top header nav{
+header .text-right{
     float: right;
 }
 

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
 /*Style of the body section*/
 body{
@@ -10,6 +11,7 @@ body{
     background-color: #50514f;
     color: #f4f4ed;
     font-size: 20px;
+    line-height: 2em;
 }
 /*Styling the header section*/
 header{
@@ -17,9 +19,15 @@ header{
     width: 100%;
     background-color: #8d91c7;
 }
+/*Styling the subtitle section*/
+.subtitle {
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
 
 
-/*Styling the backgorund image*/
+/*Styling the background image*/
 .bg.img{
     background-size: cover;
     background-position: center;
@@ -55,22 +63,28 @@ header .text-right {
 }
 /*Styling of how buttons are pressed*/
 a:link{
-color:#8d91c7
+color:orange;
+
 }
 
 a:visited {
     color:#191516;
 }
 /*Styling of the portfolio cards*/
+section{
+    display: block;
+    box-sizing: border-box; 
+}
+
 .card.text {
-    max-width: 200px;
+    max-width: auto;
 
 }
 
-.card.text .subsection{
+.card.text .subsection {
     width: 80%; 
     border: 1px solid #6d6875; 
-    box-sizing: border-box; 
+    
     display: flex;
     flex: 1 0 200px;
     align-items: center;
@@ -82,7 +96,6 @@ a:visited {
 .card.text .subsection a{
     width: 80%; 
     border: 1px solid #6d6875; 
-    box-sizing: border-box; 
     display: flex;
     flex: 1 0 200px;
     align-items: center;
@@ -93,13 +106,19 @@ a:visited {
     width: 20%;
     max-width: 250px; 
 	float: left; 
-    left: 0;
+    left: 10;
     top: 92px;
     bottom: 0;
     width: 178px;
 }
 
-footer{
+/*Styling of the about me text */
+.card.text p{
+    padding: 10px;
+}
+
+/*Styling of the footer */
+footer {
     position: relative;
     padding-bottom: 2.5rem; 
     position: absolute;
@@ -117,6 +136,7 @@ ul {
 h1{
     display: inline;
     padding: 10px;
+    margin-top: 10px;
 }
 
 li {
@@ -128,7 +148,8 @@ li {
 main{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10%;
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
 }
 

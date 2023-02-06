@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*Style of the body section*/
 body{
     display: flex;
     flex-direction: column;
@@ -21,7 +21,6 @@ header{
 
 /*Styling the backgorund image*/
 .bg.img{
-    background: url(img_man.jpg) no-repeat center;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -35,21 +34,79 @@ header nav{
     padding: 10px 15px;
     flex-wrap: wrap;
     float: right;
+
 }
 
-header .text-right:hover{
-    background-color: red;
+/*CSS selectors for pressing and hovering the nav links*/
+header .text-right li:hover{
+    background-color: lightcoral;
     color: black;
+    border-radius: 25px;
 }
 
-header .text-right:active{
-    background-color: #04AA6D;
+header .text-right li:active {
     color: white;
+    box-shadow: 0 5px #6d6875;
   }
 
-
-header .text-right{
+/*This selector sends the nav bar to the right*/
+header .text-right {
     float: right;
+}
+/*Styling of how buttons are pressed*/
+a:link{
+color:#8d91c7
+}
+
+a:visited {
+    color:#191516;
+}
+/*Styling of the portfolio cards*/
+.card.text {
+    max-width: 200px;
+
+}
+
+.card.text .subsection{
+    width: 80%; 
+    border: 1px solid #6d6875; 
+    box-sizing: border-box; 
+    display: flex;
+    flex: 1 0 200px;
+    align-items: center;
+    margin: 0 200px;
+    padding: 10px;
+}
+/*Styling of the Work and Contact */
+
+.card.text .subsection a{
+    width: 80%; 
+    border: 1px solid #6d6875; 
+    box-sizing: border-box; 
+    display: flex;
+    flex: 1 0 200px;
+    align-items: center;
+    padding: 10px;
+}
+
+.card.text h2 {
+    width: 20%;
+    max-width: 250px; 
+	float: left; 
+    left: 0;
+    top: 92px;
+    bottom: 0;
+    width: 178px;
+}
+
+footer{
+    position: relative;
+    padding-bottom: 2.5rem; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center; 
 }
 
 ul {
@@ -69,7 +126,9 @@ li {
 }
 
 main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 

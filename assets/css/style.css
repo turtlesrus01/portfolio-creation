@@ -11,23 +11,43 @@ body{
     color: #f4f4ed;
     font-size: 20px;
 }
-
+/*Styling the header section*/
 header{
-    justify-content: space-between;
     height: 60px;
     width: 100%;
     background-color: #8d91c7;
 }
 
+
+/*Styling the hero image*/
 .hero{
     height: 500px;
     background-position: center;
     background-size: cover;
 }
 
+/*Styling the nav bar*/
 header nav{
-   justify-content: flex-end;
+    background-color: #8d91c7;
+    min-height: 20px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    float: right;
+}
 
+.top header nav:hover{
+    background-color: red;
+    color: black;
+}
+
+.top header nav:active{
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+.top header nav{
+    float: right;
 }
 
 ul {
@@ -36,7 +56,7 @@ ul {
 }
 
 h1{
-    display: block;
+    display: inline;
     padding: 10px;
 }
 
@@ -51,6 +71,3 @@ main{
 
 }
 
-.text-right{
-    text-align: right;
-}

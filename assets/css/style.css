@@ -12,13 +12,13 @@ body{
     color: #f4f4ed;
     font-size: 20px;
     line-height: 2em;
-    background-color: #8d91c7;
+    background-color: #9799CA;
 }
 /*Styling the header section*/
 header{
     height: 60px;
     width: 100%;
-    background-color: #8d91c7;
+    background-color: #9799CA;
 }
 
 /*Styling the subtitle section*/
@@ -39,7 +39,7 @@ header{
 
 /*Styling the nav bar*/
 header nav{
-    background-color: #8d91c7;
+    background-color: #9799CA;
     min-height: 20px;
     padding: 10px 15px;
     flex-wrap: wrap;
@@ -65,11 +65,11 @@ header .text-right {
 }
 /*Styling of how buttons are pressed*/
 a:link{
-color:orange;
+color:#BC4B51;
 }
 
 a:visited {
-    color: greenyellow;
+    color: #FF0022;
 }
 /*Styling of the portfolio cards*/
 section{
@@ -93,22 +93,22 @@ section{
 }
 
 .subsection.two{
-    border: 10px solid black;
+    border: 10px solid #ebebd3;
 }
 
 /*Styling for sections with photo and link*/
 .imageText{
     position: relative;
     border: 1px solid #6d6875; 
-    border: 10px solid black;
-    background-color: black;
+    border: 10px solid #ebebd3;
+    background-color: #ebebd3;
 }
 
 .imageText a {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    background-color: #50514f;
+    background-color: #ebebd3;
 }
 
 /*Styling to add padding to middle section*/
@@ -118,6 +118,8 @@ section{
 }
 
 /*Styling of the Work and Contact */
+
+
 
 .card.text .subsection a{
     width: auto; 
@@ -135,7 +137,7 @@ section{
     align-items: center;
     flex-direction: column;
     text-shadow: 2px 2px 4px #191516;
-    background-image: radial-gradient( #8d91c7, lightblue);
+    background-color: #5B8E7D;
     justify-content: center;
 }
 
@@ -150,6 +152,18 @@ section{
     margin-left: 10px;
     flex: 1;
 }
+
+.imageText a:hover{
+    background-color: lightcoral;
+    color: black;
+    border-radius: 25px;
+}
+
+.imageText a:active {
+    color: white;
+    box-shadow: 0 5px #6d6875;
+  }
+
 
 /*Styling of the about me text */
 .card.text p{

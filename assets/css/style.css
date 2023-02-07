@@ -66,11 +66,10 @@ header .text-right {
 /*Styling of how buttons are pressed*/
 a:link{
 color:orange;
-
 }
 
 a:visited {
-    color:#191516;
+    color: greenyellow;
 }
 /*Styling of the portfolio cards*/
 section{
@@ -93,14 +92,23 @@ section{
     padding: 10px;
 }
 
+.subsection.two{
+    border: 10px solid black;
+}
+
+/*Styling for sections with photo and link*/
 .imageText{
     position: relative;
+    border: 1px solid #6d6875; 
+    border: 10px solid black;
+    background-color: black;
 }
 
 .imageText a {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    background-color: #50514f;
 }
 
 /*Styling to add padding to middle section*/
@@ -113,13 +121,9 @@ section{
 
 .card.text .subsection a{
     width: auto; 
-    height: 200px; 
-    border: 1px solid #6d6875; 
     display: flex;
     flex: 1 0 200px;
-    align-items: flex-end;
-    padding: 10px;
-    background-image: radial-gradient( #8d91c7, lightblue);
+    align-items: flex-end;    
     text-shadow: 2px 2px 4px #191516;
 }
 
@@ -131,6 +135,7 @@ section{
     align-items: center;
     flex-direction: column;
     text-shadow: 2px 2px 4px #191516;
+    background-image: radial-gradient( #8d91c7, lightblue);
     justify-content: center;
 }
 

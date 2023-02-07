@@ -5,45 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio-Creation</title>
 </head>
 
 <body>
-    <header>
+    <header class="top header">
         <h1>Stefan Palacios</h1>
-        <nav id="text-right">
+        <nav class="text-right">
             <ul>
-             <li><a href="">About Me</a></li>
-             <li><a href="">Work</a></li>
-             <li><a href="">Contact Me</a></li>
+             <li><a href="#about me">About Me</a></li>
+             <li><a href="#work">Work</a></li>
+             <li><a href="#contact me">Contact Me</a></li>
             </ul>
         </nav>
-        <section id="Hero">Hero</section> 
+        
+        <img class="bg img" alt="blue and purple gradient background" src="./assets/img/luke-chesser-3rWagdKBF7U-unsplash (2).jpg"></section> 
+        
+
     </header>
-<main>
-    <section class="about me">
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum unde esse cupiditate tempora earum laboriosam vel blanditiis, molestias est sit dignissimos odit quod voluptate quae, hic ex. Cupiditate, accusantium.</p>
-    </section>
 
-    <section class="work">
-        <h1>Work</h1>
-        <a href="placeholder">210-555-5555</a>
-        <a href="placeholder">A</a>
-        <a href="placeholder">2</a>
-        <a href="placeholder">3</a>
-    </section>
+    <main>
+        <section>
+            <h2 class="subtitle">Welcome to my Portfolio!</h2>
+            <div class="card text one">
+                <h2 id="about me">About Me</h2>
+                <div class="subsection one">
+                    <p>Hello, my name is Stefan Palacios and I am a learning web developer working to perfect my skills. Please take a look at my work and if you'd like to reach out, be my guest!</p>
+                </div>
+            </div>
 
-    <section class="contact">
-        <h1>Contact Me</h1>
-        <a href="https://github.com/turtlesrus01/horiseon-solutions">Horiseon-Solutions</a>
-        <a href="placeholder">clock</a>
-        <a href="placeholder">green-frog</a>
-        <a href="placeholder">geo-finder</a>
-    </section>
-    
-    <section>About Me</section>
-</main>
+            <div class="card text two">
+                <h2 id="work">Work</h2>
+                <div class="subsection two">
+                    <div class="imageText">
+                        <img src="./assets/img/chris-ried-ieic5Tq8YMk-unsplash.jpg" style="width:200px; height: 200px;"></img>
+                        <a href="https://github.com/turtlesrus01/horiseon-solutions">Horiseon Solutions</a>
+                    </div>
+                    <a href="https://github.com/turtlesrus01/snippet-sheet">Snippet Sheet</a>
+                    <a href="placeholder">Green Frog</a>
+                    <a href="placeholder">Geo Finder</a>
+                 </div>
+            </div>
 
+            <div class="card text three">
+                <h2 id="contact me">Contact Me</h2>
+                <div  class="subsection three">
+                    <a href="stefan.palacios@gmail.com">Email</a>
+                    <a href="placeholder">210-555-5555</a>
+                    <a href="https://github.com/turtlesrus01">GitHub</a>
+                    <a href="placeholder">Twitter</a>
+                    <a href="placeholder">Spotify</a>
+                </div>
+            </div>
+         </section>
+        <footer id="footer">Made with ❤️ by Stefan</footer>
+    </main>
 </body>
 </html>

@@ -1,22 +1,226 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
+}
+/*Style of the body section*/
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #50514f;
+    color: #f4f4ed;
+    font-size: 20px;
+    line-height: 2em;
+    background-color: #9799CA;
+}
+/*Styling the header section*/
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #9799CA;
 }
 
-body{
+/*Styling the subtitle section*/
+.subtitle {
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
 
+/*Styling the background image*/
+.bg.img{
+    flex: auto;
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/*Styling the nav bar*/
+header nav{
+    background-color: #9799CA;
+    min-height: 20px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    float: right;
+    text-shadow: 2px 2px 4px #191516;
+}
+
+/*CSS selectors for pressing and hovering the nav links*/
+header .text-right li:hover{
+    background-color: lightcoral;
+    color: black;
+    border-radius: 25px;
+}
+
+header .text-right li:active {
+    color: white;
+    box-shadow: 0 5px #6d6875;
+  }
+
+/*This selector sends the nav bar to the right*/
+header .text-right {
+    float: right;
+}
+/*Styling of how buttons are pressed*/
+a:link{
+color:#BC4B51;
+}
+
+a:visited {
+    color: #FF0022;
+}
+/*Styling of the portfolio cards*/
+section{
+    box-sizing: border-box; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card.text {
+    max-width: 100%;
+}
+
+.card.text .subsection {
+    width: 80%;
+    border: 1px solid #6d6875; 
+    display: flex;
+    flex: 1 0 200px;
+    align-items: center;
+    margin: 0 200px;
+    padding: 10px;
+}
+
+.subsection.two{
+    border: 10px solid #ebebd3;
+}
+
+/*Styling for sections with photo and link*/
+.imageText{
+    position: relative;
+    border: 1px solid #6d6875; 
+    border: 10px solid #ebebd3;
+    background-color: #ebebd3;
+}
+
+.imageText a {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: #ebebd3;
+}
+
+/*Styling to add padding to middle section*/
+.card.text.two {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*Styling of the Work and Contact */
+
+
+
+.card.text .subsection a{
+    width: auto; 
+    display: flex;
+    flex: 1 0 200px;
+    align-items: flex-end;    
+    text-shadow: 2px 2px 4px #191516;
+}
+
+.card.text .subsection.three a{
+    height: 75px; 
+    border: 1px solid #6d6875; 
+    display: flex;
+    flex: 1 1 200px;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px #191516;
+    background-color: #5B8E7D;
+    justify-content: center;
+}
+
+.card.text h2 {
+    width: 20%;
+    max-width: 250px; 
+	float: left; 
+    left: 10;
+    top: 92px;
+    bottom: 0;
+    width: 178px;
+    margin-left: 10px;
+    flex: 1;
+}
+
+/*Hover and click selectors for my Work cards*/
+.imageText a:hover{
+    background-color: lightcoral;
+    color: black;
+    border-radius: 25px;
+}
+
+.imageText a:active {
+    color: white;
+    box-shadow: 0 5px #6d6875;
+  }
+
+
+/*Styling of the about me text */
+.card.text p{
+    padding: 10px;
+}
+
+/*Hover and click selectors for my Work cards*/
+.subsection.three a:hover{
+    color: black;
+    border-radius: 25px;
+}
+
+.subsection.three a:active {
+    color: white;
+    box-shadow: 0 5px #6d6875;
+  }
+/*Styling of the footer */
+footer {
+    position: relative;
+    padding-bottom: 2.5rem; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center; 
+}
+
+ul {
+    display: flex;
+    list-style-type: disc;
 }
 
 h1{
+    display: inline;
+    padding: 10px;
+}
 
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
 }
 
 main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    color: beige;
-
+    justify-content: space-evenly;
 }
 
-.text-right{
-    text-align: right;
+/*Creating responsive design*/
+@media screen and (max-width: 768px) {
+    
+header nav{
+    flex-direction: column;
+}
+
 }

@@ -92,6 +92,17 @@ section{
     margin: 0 200px;
     padding: 10px;
 }
+
+.imageText{
+    position: relative;
+}
+
+.imageText a {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 /*Styling to add padding to middle section*/
 .card.text.two {
     padding-top: 2em;

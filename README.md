@@ -20,7 +20,7 @@ You can use this page to view my work and contact me if need be.
 
 ## Here is an image of the finished site:
 
-![photo of website](./assets/img/Screenshot%202023-02-06%20234433.png)
+![photo of website](./assets/img/Screenshot%202023-02-06%20235736.png)
 
 The deployed website can be reached at this link: https://turtlesrus01.github.io/portfolio-creation/
 

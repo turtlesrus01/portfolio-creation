@@ -153,6 +153,7 @@ section{
     flex: 1;
 }
 
+/*Hover and click selectors for my Work cards*/
 .imageText a:hover{
     background-color: lightcoral;
     color: black;
@@ -170,6 +171,16 @@ section{
     padding: 10px;
 }
 
+/*Hover and click selectors for my Work cards*/
+.subsection.three a:hover{
+    color: black;
+    border-radius: 25px;
+}
+
+.subsection.three a:active {
+    color: white;
+    box-shadow: 0 5px #6d6875;
+  }
 /*Styling of the footer */
 footer {
     position: relative;
